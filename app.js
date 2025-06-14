@@ -11,15 +11,15 @@
 
 
 // 2.......
-const num = [1, 4, 7, 10, 13];
+// const num = [1, 4, 7, 10, 13];
 
-num.forEach(function (number) {
-    if (number % 2 === 0) {
-        console.log(number + " is even");
-    } else {
-        console.log(number + " is odd");
-    }
-});
+// num.forEach(function (number) {
+//     if (number % 2 === 0) {
+//         console.log(number + " is even");
+//     } else {
+//         console.log(number + " is odd");
+//     }
+// });
 
 
 
@@ -27,9 +27,9 @@ num.forEach(function (number) {
 
 // 3........
 // const users = [
-//     { name: "Alice", score: 90 },
-//     { name: "Bob", score: 75 },
-//     { name: "Charlie", score: 88 }
+//     { name: "Naveera", score: 90 },
+//     { name: "Nazish", score: 75 },
+//     { name: "Filza", score: 88 }
 // ];
 
 // users.forEach(function (user) {
@@ -95,17 +95,17 @@ num.forEach(function (number) {
 
 
 // 8**********
-// const people = [
-//     { name: "Alice", age: 25 },
-//     { name: "Bob", age: 30 },
-//     { name: "Charlie", age: 22 }
-// ];
+const people = [
+    { name: "miss hira", age: 25 },
+    { name: "miss tayabba", age: 30 },
+    { name: "miss qurat", age: 22 }
+];
 
-// const messages = people.map(function (person) {
-//     return `${person.name} is ${person.age} years old`;
-// });
+const messages = people.map(function (person) {
+    return `${person.name} is ${person.age} years old`;
+});
 
-// console.log(messages);
+console.log(messages);
 
 
 
