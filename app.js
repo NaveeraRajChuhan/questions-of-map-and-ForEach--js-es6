@@ -95,19 +95,17 @@
 
 
 // 8**********
-const people = [
-    { name: "miss hira", age: 25 },
-    { name: "miss tayabba", age: 30 },
-    { name: "miss qurat", age: 22 }
-];
+// const people = [
+//     { name: "miss hira", age: 25 },
+//     { name: "miss tayabba", age: 30 },
+//     { name: "miss qurat", age: 22 }
+// ];
 
-const messages = people.map(function (person) {
-    return `${person.name} is ${person.age} years old`;
-});
+// const messages = people.map(function (person) {
+//     return `${person.name} is ${person.age} years old`;
+// });
 
-console.log(messages);
-
-
+// console.log(messages);
 
 
 
@@ -116,8 +114,10 @@ console.log(messages);
 
 
 // 9*********
-// const words = ["Hello", "WORLD", "JavaScript", "MAP"];
+// const words = ["Hello", "WORLD", "JavaScript"];
 // const lowerCaseWords = words.map(word => word.toLowerCase());
 
 // console.log(lowerCaseWords);
-// Output: ["hello", "world", "javascript", "map"]
+
+
+
