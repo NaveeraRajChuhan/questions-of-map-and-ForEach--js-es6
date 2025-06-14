@@ -2,24 +2,24 @@
 
 // ........................ForEach........................
 
-const names = ["Ali", "Fatima", "Hassan", "Zainab"];
+// const names = ["Ali", "Fatima", "Hassan", "Zainab"];
 
-names.forEach(name => {
-console.log(`${name} has ${name.length} letters`);
-});
+// names.forEach(name => {
+// console.log(`${name} has ${name.length} letters`);
+// });
 
 
 
 // 2.......
-// const num = [1, 4, 7, 10, 13];
+const num = [1, 4, 7, 10, 13];
 
-// num.forEach(function (number) {
-//     if (number % 2 === 0) {
-//         console.log(number + " is even");
-//     } else {
-//         console.log(number + " is odd");
-//     }
-// });
+num.forEach(function (number) {
+    if (number % 2 === 0) {
+        console.log(number + " is even");
+    } else {
+        console.log(number + " is odd");
+    }
+});
 
 
 
